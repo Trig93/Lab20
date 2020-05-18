@@ -1,0 +1,10 @@
+-- #1 select * from customers;
+-- #2 select country from customers;
+-- #3 select CustomerID from customers where CustomerID like 'bl%';
+-- #4 select * from orders limit 100;
+-- #5 select * from customers where PostalCode=1010 or PostalCode=3012 or PostalCode=12209 or PostalCode=05023;
+-- #6 select * from orders where ShipRegion <> NULL;
+-- #7 select * from customers order by Country, City;
+-- #8 insert into customers values (CustomerID, CompanyName, ContactName, ContactTitle, Address, City, Region, PostalCode, Country, Phone, Fax, Image, ImageThumbnail);
+-- #9 update orders set ShipRegion='EuroZone' where ShipCountry='France';
+-- #10 delete from `order details` where Quantity=1;
